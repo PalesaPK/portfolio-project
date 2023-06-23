@@ -82,7 +82,7 @@ h1 {
     padding: 15px 30px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
     .hero {
         text-align: center;
         padding: 35px 10px;
