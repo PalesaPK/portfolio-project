@@ -108,7 +108,8 @@ h1 {
   width: 600px;
 }
 
-.projects-display {
+.projects-display,
+.contact {
   padding: 130px 30px;
   text-align: center;
 }
@@ -127,17 +128,27 @@ h1 {
   opacity: 70%;
 }
 
+.contact p {
+    margin: 0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .hero,
   .about-section,
-  .projects-display {
+  .projects-display,
+  .contact {
     text-align: center;
     padding: 35px 10px;
   }
 
   .hero h1,
   .about-section h1,
-  .projects-display h1 {
+  .projects-display h1,
+  .contact h1 {
     font-size: 45px;
   }
 
