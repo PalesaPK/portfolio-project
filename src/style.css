@@ -189,8 +189,21 @@ footer .contact-box {
   color: var(--secondary-color);
 }
 
+.disclaimer {
+    font-size: 12px;  
+}
+
+.disclaimer a {
+color: var(--accent-color);
+text-decoration: none;
+}
+
 @media (max-width: 900px) {
-  .hero,
+  footer {
+    margin: 30px 0;
+  }
+
+    .hero,
   .about-section,
   .projects-display,
   .contact {
